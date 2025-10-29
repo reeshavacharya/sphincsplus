@@ -25,8 +25,12 @@ DET_HEADERS = $(HEADERS:randombytes.%=rng.%)
 
 TESTS =         test/fors \
 		test/spx \
+		test/test_time
 
-BENCHMARK = test/benchmark
+BENCHMARKS = test/benchmark \
+		test/benchmark_time
+
+all: $(TESTS) $(BENCHMARKS)
 
 .PHONY: clean test benchmark
 

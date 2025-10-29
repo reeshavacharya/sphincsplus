@@ -1,0 +1,250 @@
+=== SPHINCS+ test_time benchmark run ===
+Started: Wed 29 Oct 2025 04:31:52 PM UTC
+
+========================================
+Testing sphincs-sha2-128s
+Build start: Wed 29 Oct 2025 04:31:52 PM UTC
+Running: make clean
+rm -f test/fors test/spx test/test_time
+rm -f 
+rm -f PQCgenKAT_sign
+rm -f PQCsignKAT_*.rsp
+rm -f PQCsignKAT_*.req
+Running: make test/test_time PARAMS=sphincs-sha2-128s THASH=simple EXTRA_CFLAGS=-w
+/usr/bin/gcc -Wall -Wextra -Wpedantic -O3 -std=c99 -Wconversion -Wmissing-prototypes -DPARAMS=sphincs-sha2-128s -w -o test/test_time address.c randombytes.c merkle.c wots.c wotsx1.c utils.c utilsx1.c fors.c sign.c sha2.c hash_sha2.c thash_sha2_simple.c test/test_time.c 
+Running: ./test/test_time
+----- OUTPUT BEGIN (sphincs-sha2-128s) -----
+Parameters: SPHINCS+-sphincs-sha2-128s using SPHINCS+
+Public Key Bytes: 32
+Secret Key Bytes: 64
+Signature Bytes: 7856
+
+Benchmark results for 100 iterations
+All times are in nanoseconds
+
+Key Generation:
+Average: 73164069
+Median: 72226480
+
+Signing:
+Average: 552113146
+Median: 550184199
+
+Verification:
+Average: 548987
+Median: 546914
+----- OUTPUT END (sphincs-sha2-128s) -----
+Cleaning after run
+rm -f test/fors test/spx test/test_time
+rm -f 
+rm -f PQCgenKAT_sign
+rm -f PQCsignKAT_*.rsp
+rm -f PQCsignKAT_*.req
+Build end: Wed 29 Oct 2025 04:32:56 PM UTC
+
+========================================
+Testing sphincs-sha2-128f
+Build start: Wed 29 Oct 2025 04:32:56 PM UTC
+Running: make clean
+rm -f test/fors test/spx test/test_time
+rm -f 
+rm -f PQCgenKAT_sign
+rm -f PQCsignKAT_*.rsp
+rm -f PQCsignKAT_*.req
+Running: make test/test_time PARAMS=sphincs-sha2-128f THASH=simple EXTRA_CFLAGS=-w
+/usr/bin/gcc -Wall -Wextra -Wpedantic -O3 -std=c99 -Wconversion -Wmissing-prototypes -DPARAMS=sphincs-sha2-128f -w -o test/test_time address.c randombytes.c merkle.c wots.c wotsx1.c utils.c utilsx1.c fors.c sign.c sha2.c hash_sha2.c thash_sha2_simple.c test/test_time.c 
+Running: ./test/test_time
+----- OUTPUT BEGIN (sphincs-sha2-128f) -----
+Parameters: SPHINCS+-sphincs-sha2-128f using SPHINCS+
+Public Key Bytes: 32
+Secret Key Bytes: 64
+Signature Bytes: 17088
+
+Benchmark results for 100 iterations
+All times are in nanoseconds
+
+Key Generation:
+Average: 1133178
+Median: 1117912
+
+Signing:
+Average: 26461683
+Median: 26346976
+
+Verification:
+Average: 1590381
+Median: 1586534
+----- OUTPUT END (sphincs-sha2-128f) -----
+Cleaning after run
+rm -f test/fors test/spx test/test_time
+rm -f 
+rm -f PQCgenKAT_sign
+rm -f PQCsignKAT_*.rsp
+rm -f PQCsignKAT_*.req
+Build end: Wed 29 Oct 2025 04:33:00 PM UTC
+
+========================================
+Testing sphincs-sha2-192s
+Build start: Wed 29 Oct 2025 04:33:00 PM UTC
+Running: make clean
+rm -f test/fors test/spx test/test_time
+rm -f 
+rm -f PQCgenKAT_sign
+rm -f PQCsignKAT_*.rsp
+rm -f PQCsignKAT_*.req
+Running: make test/test_time PARAMS=sphincs-sha2-192s THASH=simple EXTRA_CFLAGS=-w
+/usr/bin/gcc -Wall -Wextra -Wpedantic -O3 -std=c99 -Wconversion -Wmissing-prototypes -DPARAMS=sphincs-sha2-192s -w -o test/test_time address.c randombytes.c merkle.c wots.c wotsx1.c utils.c utilsx1.c fors.c sign.c sha2.c hash_sha2.c thash_sha2_simple.c test/test_time.c 
+Running: ./test/test_time
+----- OUTPUT BEGIN (sphincs-sha2-192s) -----
+Parameters: SPHINCS+-sphincs-sha2-192s using SPHINCS+
+Public Key Bytes: 48
+Secret Key Bytes: 96
+Signature Bytes: 16224
+
+Benchmark results for 100 iterations
+All times are in nanoseconds
+
+Key Generation:
+Average: 104901899
+Median: 104240568
+
+Signing:
+Average: 966238629
+Median: 965625434
+
+Verification:
+Average: 787897
+Median: 784920
+----- OUTPUT END (sphincs-sha2-192s) -----
+Cleaning after run
+rm -f test/fors test/spx test/test_time
+rm -f 
+rm -f PQCgenKAT_sign
+rm -f PQCsignKAT_*.rsp
+rm -f PQCsignKAT_*.req
+Build end: Wed 29 Oct 2025 04:34:48 PM UTC
+
+========================================
+Testing sphincs-sha2-192f
+Build start: Wed 29 Oct 2025 04:34:48 PM UTC
+Running: make clean
+rm -f test/fors test/spx test/test_time
+rm -f 
+rm -f PQCgenKAT_sign
+rm -f PQCsignKAT_*.rsp
+rm -f PQCsignKAT_*.req
+Running: make test/test_time PARAMS=sphincs-sha2-192f THASH=simple EXTRA_CFLAGS=-w
+/usr/bin/gcc -Wall -Wextra -Wpedantic -O3 -std=c99 -Wconversion -Wmissing-prototypes -DPARAMS=sphincs-sha2-192f -w -o test/test_time address.c randombytes.c merkle.c wots.c wotsx1.c utils.c utilsx1.c fors.c sign.c sha2.c hash_sha2.c thash_sha2_simple.c test/test_time.c 
+Running: ./test/test_time
+----- OUTPUT BEGIN (sphincs-sha2-192f) -----
+Parameters: SPHINCS+-sphincs-sha2-192f using SPHINCS+
+Public Key Bytes: 48
+Secret Key Bytes: 96
+Signature Bytes: 35664
+
+Benchmark results for 100 iterations
+All times are in nanoseconds
+
+Key Generation:
+Average: 1655676
+Median: 1616964
+
+Signing:
+Average: 43208624
+Median: 42777184
+
+Verification:
+Average: 2321150
+Median: 2297980
+----- OUTPUT END (sphincs-sha2-192f) -----
+Cleaning after run
+rm -f test/fors test/spx test/test_time
+rm -f 
+rm -f PQCgenKAT_sign
+rm -f PQCsignKAT_*.rsp
+rm -f PQCsignKAT_*.req
+Build end: Wed 29 Oct 2025 04:34:54 PM UTC
+
+========================================
+Testing sphincs-sha2-256s
+Build start: Wed 29 Oct 2025 04:34:54 PM UTC
+Running: make clean
+rm -f test/fors test/spx test/test_time
+rm -f 
+rm -f PQCgenKAT_sign
+rm -f PQCsignKAT_*.rsp
+rm -f PQCsignKAT_*.req
+Running: make test/test_time PARAMS=sphincs-sha2-256s THASH=simple EXTRA_CFLAGS=-w
+/usr/bin/gcc -Wall -Wextra -Wpedantic -O3 -std=c99 -Wconversion -Wmissing-prototypes -DPARAMS=sphincs-sha2-256s -w -o test/test_time address.c randombytes.c merkle.c wots.c wotsx1.c utils.c utilsx1.c fors.c sign.c sha2.c hash_sha2.c thash_sha2_simple.c test/test_time.c 
+Running: ./test/test_time
+----- OUTPUT BEGIN (sphincs-sha2-256s) -----
+Parameters: SPHINCS+-sphincs-sha2-256s using SPHINCS+
+Public Key Bytes: 64
+Secret Key Bytes: 128
+Signature Bytes: 29792
+
+Benchmark results for 100 iterations
+All times are in nanoseconds
+
+Key Generation:
+Average: 69014779
+Median: 68566472
+
+Signing:
+Average: 845375915
+Median: 842863764
+
+Verification:
+Average: 1170200
+Median: 1163655
+----- OUTPUT END (sphincs-sha2-256s) -----
+Cleaning after run
+rm -f test/fors test/spx test/test_time
+rm -f 
+rm -f PQCgenKAT_sign
+rm -f PQCsignKAT_*.rsp
+rm -f PQCsignKAT_*.req
+Build end: Wed 29 Oct 2025 04:36:27 PM UTC
+
+========================================
+Testing sphincs-sha2-256f
+Build start: Wed 29 Oct 2025 04:36:27 PM UTC
+Running: make clean
+rm -f test/fors test/spx test/test_time
+rm -f 
+rm -f PQCgenKAT_sign
+rm -f PQCsignKAT_*.rsp
+rm -f PQCsignKAT_*.req
+Running: make test/test_time PARAMS=sphincs-sha2-256f THASH=simple EXTRA_CFLAGS=-w
+/usr/bin/gcc -Wall -Wextra -Wpedantic -O3 -std=c99 -Wconversion -Wmissing-prototypes -DPARAMS=sphincs-sha2-256f -w -o test/test_time address.c randombytes.c merkle.c wots.c wotsx1.c utils.c utilsx1.c fors.c sign.c sha2.c hash_sha2.c thash_sha2_simple.c test/test_time.c 
+Running: ./test/test_time
+----- OUTPUT BEGIN (sphincs-sha2-256f) -----
+Parameters: SPHINCS+-sphincs-sha2-256f using SPHINCS+
+Public Key Bytes: 64
+Secret Key Bytes: 128
+Signature Bytes: 49856
+
+Benchmark results for 100 iterations
+All times are in nanoseconds
+
+Key Generation:
+Average: 4277419
+Median: 4241975
+
+Signing:
+Average: 87197832
+Median: 86841309
+
+Verification:
+Average: 2318855
+Median: 2305576
+----- OUTPUT END (sphincs-sha2-256f) -----
+Cleaning after run
+rm -f test/fors test/spx test/test_time
+rm -f 
+rm -f PQCgenKAT_sign
+rm -f PQCsignKAT_*.rsp
+rm -f PQCsignKAT_*.req
+Build end: Wed 29 Oct 2025 04:36:37 PM UTC
+
+All done: Wed 29 Oct 2025 04:36:37 PM UTC
