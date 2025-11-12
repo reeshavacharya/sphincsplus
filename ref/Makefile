@@ -52,6 +52,9 @@ PQCgenKAT_sign: PQCgenKAT_sign.c $(DET_SOURCES) $(DET_HEADERS)
 test/benchmark: test/benchmark.c test/cycles.c $(SOURCES) $(HEADERS)
 	$(CC) $(CFLAGS) -o $@ test/cycles.c $(SOURCES) $< $(LDLIBS)
 
+test/test_time: test/test_time.c test/cycles.c $(SOURCES) $(HEADERS)
+	$(CC) $(CFLAGS) -o $@ test/cycles.c $(SOURCES) $< $(LDLIBS)
+
 test/%: test/%.c $(SOURCES) $(HEADERS)
 	$(CC) $(CFLAGS) -o $@ $(SOURCES) $< $(LDLIBS)
 

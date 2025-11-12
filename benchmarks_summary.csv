@@ -1,0 +1,17 @@
+implementation,function_family,security_level,variant,thash,paramset,keygen_avg_ns,sign_avg_ns,verify_avg_ns
+ref,shake,128,f,robust,sphincs-shake-128f,3521069,82105080,5064527
+ref,shake,128,f,simple,sphincs-shake-128f,1820332,42595846,2532117
+ref,shake,192,f,robust,sphincs-shake-192f,5143412,130220810,7363908
+ref,shake,192,f,simple,sphincs-shake-192f,2651316,68787261,3677356
+ref,shake,256,f,robust,sphincs-shake-256f,13605665,268284091,7496861
+ref,shake,256,f,simple,sphincs-shake-256f,7013316,140815152,3742924
+ref,shake,128,s,robust,sphincs-shake-128s,224536450,1685741434,1721752
+ref,shake,128,s,simple,sphincs-shake-128s,116653503,883015316,861616
+ref,shake,192,s,robust,sphincs-shake-192s,328561045,2865900437,2506076
+ref,shake,192,s,simple,sphincs-shake-192s,170290283,1523184722,1251703
+ref,shake,256,s,robust,sphincs-shake-256s,218017626,2472740048,3692801
+ref,shake,256,s,simple,sphincs-shake-256s,112072626,1334004438,1836056
+ref,sha2,128,f,robust,sphincs-sha2-128f,2130170,49366265,3099772
+ref,sha2,128,f,simple,sphincs-sha2-128f,1087796,25399232,1515114
+ref,sha2,192,f,robust,sphincs-sha2-192f,3062026,78529488,4468717
+ref,sha2,192,f,simple,sphincs-sha2-192f,1566268,41300386,2184002
